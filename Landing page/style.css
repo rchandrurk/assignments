@@ -1,0 +1,176 @@
+* {
+  transition: all 0.2s;
+  
+}
+
+body {
+  background-color: #edf1f5;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  background-color: #fdfdfd;
+  width: 960px;
+  height: 660px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  box-shadow: 1px 10px 80px 2px #e2e7ea;
+
+}
+.nav-wrapper {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+}
+.nav-items {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  flex-basis: 150px;
+}
+
+.brand-logo img {
+  width: 100px;
+  margin-left: 40px;
+}
+
+.nav-active {
+  color: #FE5D20 !important;
+  font-weight: 600;
+}
+
+.nav-items a {
+  color: #8071D0;
+  margin: 0 20px;
+  font-size: 13px;
+}
+.nav-items a:hover {
+  text-decoration: underline black;
+  text-decoration-thickness: 3px;
+}
+
+
+.stunning-sign {
+  background-color: #FFD8DB;
+  margin-right: 40px;
+  padding: 14px 34px;
+  color: #ffffff;
+  font-size: 11px;
+  border-radius: 12px;
+}
+
+.reg-container:hover .stunning-sign {
+  background-color: #A389CC;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.col-60 {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.col-40 {
+  width: 45%;
+}
+
+.left-container {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.feature-section {
+  margin: 20px 0;
+}
+
+.landing img {
+  width: 460px;
+  margin-top: 50px;
+  margin-right: 100px;
+
+}
+
+.newaccount-section {
+  margin: 30px 0;
+}
+
+.btn-feature {
+  background-color: #ffe1f9;
+  color: #6a7cff;
+  padding: 8px 20px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 30px;
+  letter-spacing: 1px;
+}
+
+.feature-section:hover .btn-feature {
+  background-color: #ffd1f6;
+}
+
+.btn-newaccount {
+  background-color: #5243C0;
+  color: #ffffff;
+  padding: 16px 30px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 12px;
+}
+
+.newaccount-section:hover .btn-newaccount {
+  background-color: #4258f5;
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 58px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.main-desc {
+  color: #0e0d0d;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.creative-title {
+  display: flex;
+  margin-left: 60px;
+  margin-top: -6px;
+  position: relative;
+}
+
+.craetive-num {
+  font-size: 12px;
+  color: #6a7cff;
+  font-weight: 500;
+}
+
+.creative-desc {
+  margin-left: 14px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+ 
+
+
